@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+var fir;
+	fir=confirm("你需要帮助计算吗？"); 
+if(fir==true){
+			alert("需要");
+   var username = prompt('请输入你的姓名：');
+var str = prompt("输入","请输入5个数字，用','分隔！"),
+        arr = str.split(","),
+        i = 0, len = arr.length,sum=0;
+    for(;i<len;i++){
+        sum += parseFloat(arr[i]);
+    }
+    alert(sum/arr.length);}
+    alert(sum);
+</script>
+
+</body>
+</html>
